@@ -1,0 +1,33 @@
+# ============================================================
+# Gesture Control System — Python Dependencies
+# ============================================================
+# Python 3.10+ required
+#
+# Install with:
+#   pip install -r requirements.txt
+#
+# For Windows volume control (optional, but recommended):
+#   pip install pycaw comtypes
+#
+# For brightness control (optional):
+#   pip install screen-brightness-control
+# ============================================================
+
+# --- Core computer vision stack ---
+opencv-python>=4.9.0
+mediapipe>=0.10.9
+numpy>=1.26.0
+
+# --- System control ---
+pyautogui>=0.9.54
+
+# --- Platform-specific (optional but highly recommended) ---
+# Windows volume control
+pycaw>=20181006; sys_platform == "win32"
+comtypes>=1.1.14; sys_platform == "win32"
+
+# Cross-platform brightness control
+screen-brightness-control>=0.23.0
+
+# --- Dev / test ---
+pytest>=8.1.0

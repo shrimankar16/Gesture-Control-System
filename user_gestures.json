@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Peace Sign",
+    "fingers": [false, true, true, false, false],
+    "action": "screenshot"
+  },
+  {
+    "name": "OK Gesture (thumb + pinky)",
+    "fingers": [true, false, false, false, true],
+    "action": "copy"
+  },
+  {
+    "name": "Rock On",
+    "fingers": [false, true, false, false, true],
+    "action": "next_tab"
+  }
+]
